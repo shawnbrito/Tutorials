@@ -1,7 +1,7 @@
 # ICT / OL & AL / FREE Tutorial & Study Material
 
 ### Made specifically for Sri Lankan OL & AL Students.
-#### The content is broken down into subjects
+#### The above /OL-Tutes/ folder contains the following subjects
 
 1. Number Systems
 2. Login Gates
