@@ -14,7 +14,9 @@
 9. Operating Systems
 10. Web Designing
 
-##Logic Gates
-##### Logic gates are the funadmental components of a Microprocessor or decision making circuit. 
+## Logic Gates
+##### Logic gates are the funadmental components of a Microprocessor or decision making circuit. Think of it as a fundamental electronic building block of digital systems. It performs a basic logical operation on one or more binary inputs (voltages representing 1 or 0) to produce a single binary output. They are the electronic "switches" that make up everything from smartphones to processors
 
 ![Logic Gates]( /OL-Tutes/gates-git.jpg )
+
+If you like building logic gates, learn about the BC547 transister and start off by building AND, OR gates.
