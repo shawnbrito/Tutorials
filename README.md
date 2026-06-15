@@ -17,4 +17,4 @@
 ##Logic Gates
 ##### Logic gates are the funadmental components of a Microprocessor or decision making circuit. 
 
-![Logic Gates]( /shawnbrito/Tutorials/blob/master/OL-Tutes/gates-git.jpg )
+![Logic Gates]( /OL-Tutes/gates-git.jpg )
