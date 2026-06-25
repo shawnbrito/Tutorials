@@ -4,7 +4,7 @@
 #### The above /OL-Tutes/ folder contains the following subjects
 
 1. Number Systems
-2. Login Gates
+2. Logic Gates
 3. Software Lifecycles
 4. General information
 5. Database handling
