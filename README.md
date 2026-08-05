@@ -24,7 +24,7 @@ If you like building logic gates, learn about the BC547 transistor and start off
 ## Operating Systems
 #### An operating system (OS) is essential system software that manages a computer's hardware and software resources. It acts as a bridge between users, application programs, and physical components like the CPU, memory, and storage. Common examples include Microsoft Windows, Apple macOS, Linux, Android, and iOS.
 
-![Logic Gates]( /OL-Tutes/os-hw3.jpg )
+![Operating System]( /OL-Tutes/os-hw3.jpg )
 
 ### Core Functions
 - Memory management: Tracks and assigns RAM to active programs safely.
@@ -36,4 +36,6 @@ If you like building logic gates, learn about the BC547 transistor and start off
 - Desktop OS: Built for personal computers (Windows, macOS, Linux).
 - Mobile OS: Built for smartphones and tablets (Android, iOS).
 - Server OS: Built to manage network traffic and enterprise data (Linux, UNIX).
+
+![Example OS]( /OL-Tutes/examples_of_os.webp )
 
