@@ -39,3 +39,39 @@ If you like building logic gates, learn about the BC547 transistor and start off
 
 ![Example OS]( /OL-Tutes/examples_of_os.webp )
 
+## Database Tables & Relationships
+Database relationships are logical connections between different tables. They use special fields called primary keys and foreign keys to link data safely and avoid repeating information.Types of Relationships
+- One-to-One (1:1): One row in a table links to only one row in another table. Example: A user and their specific profile details.
+- One-to-Many (1:N): One row in a table links to multiple rows in another table. Example: One customer places many orders.
+- Many-to-Many (N:N): Multiple rows in both tables link to each other. Example: Students take multiple classes, and classes have multiple students. This uses a middle link table.
+
+![Example OS]( /OL-Tutes/database_relation.webp )
+
+Here is how primary keys and foreign keys connect tables, followed by a practical SQL example.
+
+### Keys Explained
+- Primary Key (PK): A unique identifier for every row in a table. It cannot be empty and guarantees that no two rows are identical.
+- Foreign Key (FK): A column in one table that links to the primary key of another table. This establishes the actual relationship between them.
+
+### SQL Example
+This script sets up a classic One-to-Many (1:N) relationship where one customer can have multiple orders.
+-- 1. Create the Customers table (The "One" side)
+
+```
+CREATE TABLE Customers (
+    CustomerID INT PRIMARY KEY, -- Primary Key
+    CustomerName VARCHAR(100) NOT NULL
+);
+```
+
+-- 2. Create the Orders table (The "Many" side)
+
+```
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY, -- Primary Key
+    OrderDate DATE NOT NULL,
+    CustomerID INT,          -- Foreign Key column
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID) -- Links back to Customers
+);
+```
+![Example OS]( /OL-Tutes/data-table7.jpg )
