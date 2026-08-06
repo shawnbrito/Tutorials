@@ -55,6 +55,7 @@ Here is how primary keys and foreign keys connect tables, followed by a practica
 
 ### SQL Example
 This script sets up a classic One-to-Many (1:N) relationship where one customer can have multiple orders.
+
 -- 1. Create the Customers table (The "One" side)
 
 ```
