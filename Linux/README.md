@@ -13,8 +13,10 @@
 - $workshop> sudo chown -R centos:centos  /opt/tomcat
 - $workshop> sudo chmod –R  775  /opt/tomcat
 
+## Edit the Startup Script
 - $> sudo vi  /etc/systemd/system/tomcat.service
 
+## Setup the Startup Service Files...
 - $> sudo systemctl daemon-reload
 - $> sudo systemctl restart tomcat.service
 - $> sudo systemctl stop tomcat.service
